@@ -1,8 +1,53 @@
-/*
-Colors:
+body{
+    margin: 2% auto;
+    padding: 0;
+    max-width: 1400px;
+    border: solid 1px orange;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 50px;
+}
+header .navbar{
+    width: 1400px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.nav-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    height: 50px;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.nav-items{
+    height: 50px;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+}
+.nav-items ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #1a1a1a;
+    font-size: 1.3rem;
+    height: 50px;
+    list-style-type: none;
+}
 
-*/
+ul li{
+    text-align: center;
+    margin: 0 1.2rem;
+}
+
+
+/* p{
+color: #1a1a1a ;
+color: #00b172;
+} */
