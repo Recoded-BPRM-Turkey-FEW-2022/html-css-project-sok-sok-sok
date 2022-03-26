@@ -9,14 +9,15 @@ header{
     background-color: white;
     position: fixed;
     width: 100vw;
-    padding: 0 2%;
+    padding: 10px 10px;
 }
 header .navbar{
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    margin: 0 20px;
 }
 .nav-logo{
     display: flex;
@@ -45,6 +46,12 @@ ul li{
     text-align: center;
     margin: 0 1.2rem;
 }
+ul li:hover{
+    color: #00b172;
+    transition: 300ms;
+    cursor: pointer;
+}
+
 main{
     width: 100vw;
 }
@@ -52,7 +59,8 @@ main{
     display: flex;
     background-image: url(/images/landing.jpg);
     background-position: center center;
-    background-size: contain;
+    background-size:cover;
+    background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -71,7 +79,18 @@ main{
     font-weight: lighter;
     font-size: 1.5em;
 }
-
+span{
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
 
 /* p{
 color: #1a1a1a ;
