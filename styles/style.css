@@ -1,9 +1,18 @@
-body{
+*{
     margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.big-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     border: dashed 1px orange;
     font-family: 'Open Sans', sans-serif;
 }
+
 header{
     height: 10vh;
     background-color: white;
@@ -53,6 +62,8 @@ ul li:hover{
 }
 
 main{
+    height: 90vh;
+    display: block;
     width: 100vw;
 }
 .hero{
@@ -64,7 +75,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
     color: white;
     border: solid 1px orange;
 }
@@ -86,13 +96,16 @@ span{
 }
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffa909, 0 0 40px #ff3d02, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff6021, 0 0 40px #ff4d4d, 0 0 50px #ff8411, 0 0 60px #fff12d, 0 0 70px #ffde4d, 0 0 80px #ff1504;
     }
+}
 
-/* p{
+/* 
+p{
 color: #1a1a1a ;
 color: #00b172;
-} */
+}
+*/
