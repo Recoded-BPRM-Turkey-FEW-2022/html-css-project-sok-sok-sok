@@ -23,6 +23,30 @@ h2 .s3h3 {
   font-size: 1.8rem;
 }
 
+header {
+  height: 10vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding: 10px 10px;
+}
+
+header .navbar {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+.nav-logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  height: 7vh;
+}
+
 h3 {
   padding-bottom: 10px;
 }
@@ -144,4 +168,85 @@ span {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff6021, 0 0 40px #ff4d4d,
       0 0 50px #ff8411, 0 0 60px #fff12d, 0 0 70px #ffde4d, 0 0 80px #ff1504;
   }
+
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffa909,
+      0 0 40px #ff3d02, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff6021, 0 0 40px #ff4d4d,
+      0 0 50px #ff8411, 0 0 60px #fff12d, 0 0 70px #ffde4d, 0 0 80px #ff1504;
+  }
 }
+.second-section-header {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.second-section-main {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  width: 90vw;
+  min-height: 250px;
+  gap: 30px;
+  padding: 2% 3%;
+}
+
+.second-section-icon {
+  align-items: center;
+}
+
+.second-section-h2 {
+  width: 100%;
+  height: 30px;
+  /* yeni  */
+  padding-top: 20px;
+  /* yeni  */
+  text-align: center;
+  font-size: 1.3rem;
+  color: #00b172;
+  font-weight: bold;
+}
+/* yeni  */
+/* hr add new class for p to avoid conflict  */
+hr {
+  margin: 3% auto;
+}
+/* yeni  */
+.second-section-main * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .second-section-card1{ 
+  grid-area: 1 / 1 / 4 / 2; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-card2 { 
+  grid-area: 1 / 2 / 4 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-card3 { 
+  grid-area: 1 / 3 / 4 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* yeni  */
+/* p add new class for p to avoid conflict  */
+p {
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+second-section-h2 {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+/* yeni  */
+/* kemal css section end */
