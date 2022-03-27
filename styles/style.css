@@ -6,3 +6,76 @@ Green: #00B172
 White: #FFF
 
 */
+//* kemal css section start */
+.second-section-header{
+  margin-top: 4%;
+  text-align: center;
+}
+
+.second-section-main {
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+text-align: center;
+width: 90vw;
+min-height: 250px;
+gap: 30px;
+padding: 2% 3%;
+}
+
+.second-section-icon{
+ align-items: center; 
+}
+
+.second-section-h2{
+  width: 100%;
+  height: 30px;
+  /* yeni  */
+  padding-top: 20px;
+  /* yeni  */
+  text-align: center;
+  font-size: 1.3rem;
+  color: #00b172;
+  font-weight: bold;
+}
+/* yeni  */
+/* hr add new class for p to avoid conflict  */
+hr{
+  margin: 3% auto;
+}
+/* yeni  */
+.second-section-main *{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .second-section-card1{ 
+  grid-area: 1 / 1 / 4 / 2; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-card2 { 
+  grid-area: 1 / 2 / 4 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-section-card3 { 
+  grid-area: 1 / 3 / 4 / 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* yeni  */
+/* p add new class for p to avoid conflict  */
+p{
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+second-section-h2{
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+/* yeni  */
+/* kemal css section end */
