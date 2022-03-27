@@ -1,9 +1,105 @@
-/*
-Colors:
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.big-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    height: 10vh;
+    background-color: white;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    padding: 10px 10px;
+}
+header .navbar{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    height: 7vh;
+}
+
+.nav-items{
+    height: 10vh;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+}
+.nav-items ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: #1a1a1a;
+    font-size: 1.3rem;
+    list-style-type: none;
+}
+
+ul li{
+    text-align: center;
+    margin: 0 1.6rem;
+}
+ul li:hover{
+    color: #00b172;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+main{
+    height: 90vh;
+    display: block;
+    width: 100vw;
+}
+.hero{
+    display: flex;
+    background-image: url(/images/landing.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero-header{
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+}
+.hero-content{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+span{
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffa909, 0 0 40px #ff3d02, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff6021, 0 0 40px #ff4d4d, 0 0 50px #ff8411, 0 0 60px #fff12d, 0 0 70px #ffde4d, 0 0 80px #ff1504;
+    }
+}
 
 */
 //* kemal css section start */
@@ -79,3 +175,4 @@ second-section-h2{
 }
 /* yeni  */
 /* kemal css section end */
+
