@@ -1,8 +1,230 @@
-/*
-Colors:
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.container3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1db954;
+  background-image: url("/images/spotify-icon-white.png");
+  background-position: center center;
+  background-size: 10rem;
+  background-repeat: no-repeat;
+}
 
-*/
+.text-area {
+  margin: 5%;
+  width: 25vw;
+  padding: 20px;
+  color: white;
+  line-height: 23px;
+}
+
+h2 .s3h3 {
+  width: 500px;
+  font-size: 1.8rem;
+}
+
+header {
+  height: 10vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding: 10px 10px;
+}
+
+header .navbar {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+.nav-logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  height: 7vh;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+hr {
+  margin-bottom: 6%;
+}
+.text-area p {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  margin-bottom: 10%;
+  margin-top: 7%;
+}
+
+.screenshot {
+  width: 300px;
+}
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  height: 10vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding: 10px 10px;
+}
+header .navbar {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+.nav-logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  height: 7vh;
+}
+
+.nav-items {
+  height: 10vh;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+}
+.nav-items ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: #1a1a1a;
+  font-size: 1.3rem;
+  list-style-type: none;
+}
+
+ul li {
+  text-align: center;
+  margin: 0 1.6rem;
+}
+ul li:hover {
+  color: #00b172;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+main {
+  height: 90vh;
+  display: block;
+  width: 100vw;
+}
+.hero {
+  display: flex;
+  background-image: url(/images/landing.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.hero-header {
+  font-size: 5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
+}
+.hero-content {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+span {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffa909,
+      0 0 40px #ff3d02, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff6021, 0 0 40px #ff4d4d,
+      0 0 50px #ff8411, 0 0 60px #fff12d, 0 0 70px #ffde4d, 0 0 80px #ff1504;
+  }
+
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffa909,
+      0 0 40px #ff3d02, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff6021, 0 0 40px #ff4d4d,
+      0 0 50px #ff8411, 0 0 60px #fff12d, 0 0 70px #ffde4d, 0 0 80px #ff1504;
+  }
+}
+.second-section-header {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.second-section-main {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  width: 90vw;
+  min-height: 250px;
+  gap: 30px;
+  padding: 2% 3%;
+}
+
+.second-section-icon {
+  align-items: center;
+}
+
+.second-section-h2 {
+  width: 100%;
+  height: 30px;
+  /* yeni  */
+  padding-top: 20px;
+  /* yeni  */
+  text-align: center;
+  font-size: 1.3rem;
+  color: #00b172;
+  font-weight: bold;
+}
+
+hr {
+  margin: 3% auto;
+}
+
+.second-section-main * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+second-section-h2 {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+/* kemal css section end */
